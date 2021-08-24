@@ -1,0 +1,43 @@
+.grey-box {
+    background-color: #DFDFDF;
+    width: 300px;
+    height: 200px;
+    padding: 3px;
+    text-align: center;
+}
+
+.red-box {
+    background-color: red;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    justify-content: center;
+}
+
+.white-box {
+    background-color: white;
+    padding-top: 50px;
+    color: black;
+    font-size: 25px;
+    margin-top: 5px;
+  /*  margin-bottom: 15px; */
+}
+
+.h1 {
+    color: white;
+    font-size: 55px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+}                                                                                                       
+
+.h2 {
+    color: white;
+    font-size : 40px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.name {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
