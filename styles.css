@@ -1,9 +1,29 @@
+.top-of-the-page {
+    color: red;
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: rgba(20, 27, 27, 0.65);
+    margin-left: 175px;
+    margin-right: 5px;
+    padding: 0px 10px;
+}
+
+body {
+    background-image:url('https://media0.giphy.com/media/dvBgr7pA6FTJOMOALY/giphy.gif?cid=ecf05e47yfihxx9yqlqzc4trt3rsw0rt1gsgvettqlm62g5x&rid=giphy.gif&ct=g');
+    background-repeat:repeat;
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+
 .grey-box {
     background-color: #DFDFDF;
     width: 300px;
     height: 200px;
     padding: 3px;
     text-align: center;
+    float: left;
+    margin-left: 300px;
+
 }
 
 .red-box {
@@ -23,23 +43,64 @@
     font-size: 35px;
     margin-top: 5px;
     line-height: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    vertical-align: middle;
 }
 
-.h1 {
+.hello {
     color: white;
     font-size: 60px;
     font-family: 'Urbanist', sans-serif;
     font-weight: bold;
 }                                                                                                       
 
-.h2 {
+.my-name-is {
     color: white;
     font-size : 30px;
     font-family: 'Urbanist', sans-serif;
 }
 
-.name {
-    font-family: 'Dancing Script', cursive;
-    font-weight: bold;
-    vertical-align: middle;
+.space {
+    height: 1000px;
 }
+
+.quarter-space {
+    height: 250px;
+}
+
+.footer-class {
+    color: red;
+    background-color: rgba(20, 27, 27, 0.65);
+    margin-left: 200px;
+    margin-right: 5px;
+}
+
+.footer-class a:hover {
+    color: orangered;
+}
+
+/* everything below this point ( for the side bar ) I refernced https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp */
+
+.sidenav {
+    height: 100%;
+    width: 170px;
+    position: fixed;
+    z-index: 1; /* Stay on top. This one is new to me. Look into this later. */
+    top: 0; /* Stay at the top. This one (or syntax) is new to me. Look into this later. */
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden; /* Disable horizontal scroll. This one is new to me. Look into this later. */
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 5px 10px 5px 15px;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
