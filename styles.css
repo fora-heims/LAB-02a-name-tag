@@ -92,6 +92,7 @@ body {
     background-color: #111;
     overflow-x: hidden; /* Disable horizontal scroll. This one is new to me. Look into this later. */
     padding-top: 20px;
+    color: #818181;
   }
   
   .sidenav a {
@@ -103,4 +104,55 @@ body {
   
   .sidenav a:hover {
     color: #f1f1f1;
+  }
+
+  .other-gender {
+      max-width: 60px;
+      float: right;
+      background-color: rgb(116, 60, 116);
+  }
+
+  .pronoun-radio {
+      color: #818181;
+  }
+
+  .green-button-style, .pink-button-style, .blue-button-style {
+      margin-top: 25px;
+      margin-left: 25px;
+  }
+
+  input {
+      margin-left: 10px;
+      max-width: 120px;
+      margin-right: 10px;
+  }
+
+  .pronoun-selector {
+      margin-left: 10px;
+  }
+
+  .courier-new {
+      font-family: 'Courier New', Courier, monospace;
+  }
+
+  .arial {
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .times-new-roman {
+      font-family: 'Times New Roman', Times, serif;
+  }
+
+  .dancing-script {
+      font-family: 'Dancing Script', cursive;
+  }
+
+  .font-selector {
+      margin-top: 40px;
+      margin-bottom: 10px;
+      margin-left: 25px;
+  }
+
+  .name-button, .pronoun-button, .font-button {
+      margin: 25px 25px 25px;
   }

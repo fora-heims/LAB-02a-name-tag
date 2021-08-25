@@ -12,22 +12,45 @@
 <header class="top-of-the-page">!!!! Watch Out, the Fox is Gonna Getcha!</header>
 <div class="quarter-space"></div>
 <div class="sidenav">
+    What is your name?
+    <label>
+        <input id="name-input" class="input-box">
+        <button id="update-button" class="name-button">Update Name</button>
+    </label><br>
+    What are your pronouns?<br>
+    <input class="pronoun-selector" name="pronouns" type="radio"> <span class="pronoun-radio">she/her</span> <br>
+    <input class="pronoun-selector" name="pronouns" type="radio"> <span class="pronoun-radio">he/him</span> <br>
+    <input class="pronoun-selector" name="pronouns" type="radio"> <span class="pronoun-radio">they/them</span> <br>
+    <input class="pronoun-selector" name="pronouns" type="radio"> <span class="pronoun-radio">other:</span> 
+    <input id="other-gender-input" class="other-gender">
+    <button id="pronoun-button" class="pronoun-button">Update Pronouns</button>
     <a target="_blank" href="https://images.unsplash.com/photo-1595495746342-e78166acbb38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=656&q=80">Foxes</a>
     <a target="_blank" href="https://images.unsplash.com/photo-1615602127413-459bdb48cf45?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80">Another Fox</a>
     <a target="_blank" href="https://images.unsplash.com/photo-1527532190655-8265d7dfb0b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">More Fox Pics</a>
     <a target="_blank" href="https://images.unsplash.com/photo-1551725301-5183dc1dbb83?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">You Guessed It!</a>
+    <button id="pink-button" class="pink-button-style">Pink</button><br>
+    <button id="green-button" class="green-button-style">Green</button><br>
+    <button id="blue-button" class="blue-button-style">Blue</button>
+    <select id="font-dropdown" class="font-selector" name="font">
+        <option class="courier-new">Courier New</option>
+        <option class="arial">Arial</option>
+        <option class="courier-new">Times New Roman</option>
+        <option class="dancing-script">Dancing Script</option>
+    </select><br>
+    <button id="update-font-button" class="font-button">Change Font</button>
   </div>
 <body>
     <div class="grey-box">
         <div class="red-box">
                 <h1 class="hello">HELLO</h1>
                 <h2 class="my-name-is">my name is</h2>
-            <div class="white-box">
+            <div id="name-goes-here" class="white-box">
                 Fora the Fox
             </div>
         </div>
     </div>
     <div class="space">   </div>
+    <script src="app.js" type="module"></script>
 </body>
 <footer class="footer-class">Welcome to the footer of the page. You may have found yourself here by scrolling to the bottom of a page where I made a name tag.
     <div><a href="https://commons.wikimedia.org/wiki/File:Hello_my_name_is_sticker.svg">hello my name is</a></div>
