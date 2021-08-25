@@ -17,27 +17,29 @@
 
 .white-box {
     background-color: white;
-    padding-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     color: black;
-    font-size: 25px;
+    font-size: 35px;
     margin-top: 5px;
-  /*  margin-bottom: 15px; */
+    line-height: 25px;
 }
 
 .h1 {
     color: white;
-    font-size: 55px;
+    font-size: 60px;
     font-family: 'Urbanist', sans-serif;
     font-weight: bold;
 }                                                                                                       
 
 .h2 {
     color: white;
-    font-size : 40px;
+    font-size : 30px;
     font-family: 'Urbanist', sans-serif;
 }
 
 .name {
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
+    vertical-align: middle;
 }
