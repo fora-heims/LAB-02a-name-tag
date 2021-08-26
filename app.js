@@ -26,3 +26,12 @@ const fontDropdown = document.getElementById('font-dropdown');
 fontButton.addEventListener('click', () => {
     nameTagName.style.fontFamily = fontDropdown.value;
 });
+
+const pronounButton = document.getElementById('pronoun-button');
+const printedPronouns = document.getElementById('pronouns-go-here')
+const otherPronounText = document.getElementById('other-pronoun-input');
+pronounButton.addEventListener('click', () => {
+       printedPronouns.textContent = otherPronounText.value;
+});
+
+let numberOfNameChanges = x;

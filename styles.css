@@ -46,6 +46,11 @@ body {
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
     vertical-align: middle;
+    height: 36px;
+}
+
+#pronouns-go-here {
+    font-size: 25px;
 }
 
 .hello {
@@ -80,17 +85,16 @@ body {
     color: orangered;
 }
 
-/* everything below this point ( for the side bar ) I refernced https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp */
 
 .sidenav {
     height: 100%;
-    width: 170px;
+    width: 180px;
     position: fixed;
-    z-index: 1; /* Stay on top. This one is new to me. Look into this later. */
-    top: 0; /* Stay at the top. This one (or syntax) is new to me. Look into this later. */
+    z-index: 1; 
+    top: 0; 
     left: 0;
     background-color: #111;
-    overflow-x: hidden; /* Disable horizontal scroll. This one is new to me. Look into this later. */
+    overflow-x: hidden; 
     padding-top: 20px;
     color: #818181;
   }
@@ -106,10 +110,9 @@ body {
     color: #f1f1f1;
   }
 
-  .other-gender {
+  .other-pronoun {
       max-width: 60px;
-      float: right;
-      background-color: rgb(116, 60, 116);
+      margin: 10px 40px 10px;
   }
 
   .pronoun-radio {
@@ -155,4 +158,11 @@ body {
 
   .name-button, .pronoun-button, .font-button {
       margin: 25px 25px 25px;
+  }
+
+  .name-tag-pronouns {
+      max-width: 50px;
+      max-height: 10px;
+      text-align: center;
+      margin-left: 115px;
   }
